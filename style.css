@@ -11,8 +11,8 @@ body{
 }
 .container{
 	margin: auto;
-	height: 900px;
-  width: 1400px;
+	height: 768px;
+  width: 1366px;
   padding: 5px;
 	background: #FFEFD5;
 }
