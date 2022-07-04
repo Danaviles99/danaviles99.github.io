@@ -14,7 +14,7 @@ body{
 	height: 768px;
   width: 1366px;
   padding: 5px;
-	background: #FFEFD5;
+	background: #FDEEED;
 }
 .logo{
   width:68% ;
@@ -44,7 +44,7 @@ body{
 	font-size: 30px;
 	border-style:  none;
 	outline-style: none;
-	background: #FFEFD5;
+	background: #FDEEED;
 	word-wrap: break-word;
 }
 .left-button {
