@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>challenge 1</title>
+
+	  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet"> 
+</head>
+
+</head>
+<body>
+
+	<div class= "container">
+		<div class= "logo">
+			<img class="logoImg" src= "imagenes/logo.jpg">
+		</div>
+		<div class="left">
+			<input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+		</div>
+
+		<div class="right">
+			<img src="imagenes/munieco.png" id="imgRight">
+
+			<h1 id="texto">Ningún mensaje fue encontrado</h1> 
+
+			<textarea id="texto2" rows="8" cols= "80">ingrese el texto que desea encriptar o desencriptar</textarea>
+
+			<button id="copiar" type= "button" name= "button" onclick= "copy()"> Copiar </button>
+		</div>	
+		<div class="left-button">
+
+			<button id="btn-encriptar" type= "button" name= "button" onclick="encriptar()">Encriptar</button>
+			<button id="btn-desencriptar" type="button" name= "button" onclick="desencriptar()">Desencriptar</button>
+		</div>
+		
+	</div>
+
+	<footer>
+          <p>&copy Copyright Dana Aviles 2022</p>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>

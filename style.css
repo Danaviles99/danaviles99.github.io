@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: #E9ECF8
+}
+.tittle{
+	float: inherit;
+	margin-left: 20%;
+}
+.container{
+	margin: auto;
+	height: 900px;
+  width: 1400px;
+  padding: 5px;
+	background: #FFEFD5;
+}
+.logo{
+  width:68% ;
+  float: left;
+  mix-blend-mode: multiply;
+  margin-bottom: 1%;
+}
+.logoImg{
+	margin-top: 1%;
+	margin-left: 5%;
+	float: inherit;
+}
+.left{
+	float: left; 
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+.text-input{
+	float: left;
+	margin-left: 20%;
+	margin-top: 2%;
+	width: 60%;
+	height: 20%;
+	color: #0A3871;
+	font-style: Inter;
+	font-size: 30px;
+	border-style:  none;
+	outline-style: none;
+	background: #FFEFD5;
+	word-wrap: break-word;
+}
+.left-button {
+	float: left;
+	width: 65%;
+	height: 19%;
+	border-radius: 24px;
+}
+#btn-encriptar{
+	padding: 24px;
+	width: 30%;
+	border: 1px solid #faf0cd;
+	height: 50%;
+	border-radius: 24px;
+	margin-left: 15%;
+	background: #0A3871;
+	font-style: inter;
+    font-weight: 400;
+   font-size: 18px;
+   line-height: 19px;
+   text-align: center;
+   background: linear-gradient(90deg, #f598a8, #f6edb2);
+}
+#btn-desencriptar{
+	padding: 24px;
+	width: 30%;
+	height: 50%;
+	border-radius: 24px;
+	margin-left: 6%;
+	background: #D8DFE8;
+	font-style: inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+  border: 1px solid #faf0cd;
+
+}
+.right{
+	float: right;
+	width: 30%;
+	height: auto;
+	border-radius: 24px;
+	background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+	align-items: stretch;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#imgRight {
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 90%;
+	height: auto;
+}
+
+#texto {
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	font-size: 25px;
+}
+#texto2{
+	text-align: center;
+	float: left;
+	margin-left: 10%;
+	background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+	width: 80%;
+	height: auto;
+	border-style: none;
+	outline-style: none;
+	font-size: 25px;
+	font-family: inter;
+	word-wrap: break-word;
+}
+#copiar{
+	padding: 24px;
+	width: 40%;
+	height: 8%;
+	border-radius: 24px;
+	margin-left: 30%;
+	background: #FFFFFF;
+	display: none;
+	border: 1px solid #0A3871;
+	font-style: inter;	
+	color: #0A3871;
+}
+footer {
+    color: black;
+    text-align: center;
+    top: 100%;
+    width: 100%;
+}
